@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://authentication-page-1nh6.vercel.app/',
+    'https://authentication-page-1nh6.vercel.app',
 ]
 
 MIDDLEWARE = [
