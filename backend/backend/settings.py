@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
+    'https://authentication-page-1nh6.vercel.app/',
 ]
 
 MIDDLEWARE = [
