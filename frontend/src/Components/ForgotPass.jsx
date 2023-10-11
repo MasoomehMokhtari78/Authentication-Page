@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
-import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
 import {Container, Field, Form, Input, MaterialIcon, StyledLink, SubmitBtn, Title, Wrapper, Info } from '../Styles/FormStyle'
-import {Person, Email, Password, Phone} from '@mui/icons-material';
+import {Email} from '@mui/icons-material';
 
 
 function ForgotPass() {
