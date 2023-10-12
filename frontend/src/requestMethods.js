@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const appUrl = "https://authentication-page-orpin.vercel.app";
+const appUrl = "http://localhost:8000/";
 export const publicRequest = axios.create({
   baseURL: `${appUrl}/api`,
 });

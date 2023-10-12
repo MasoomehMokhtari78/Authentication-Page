@@ -11,12 +11,14 @@ function App() {
     <BrowserRouter>
       <Routes>
       <Route path='/'>
+          <Route path="/" element={<Login/>} />
           <Route path='register' element={<Register/>}/>
           <Route path='login' element={<Login/>}/>
           <Route path='password-reset' element={<ForgotPass/>}/>
           <Route path='dashboard' element={
           <PrivateRoute><Dashboard/></PrivateRoute> }/>
         </Route>
+        <Route path="*" element={<Login/>} />
       </Routes>
     </BrowserRouter>
 

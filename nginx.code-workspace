@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "nginx",
+			"path": "C:/Users/Masoomeh/Desktop/authentication_app_react_django_rest-main/nginx"
+		},
+		{
+			"name": "Authentication-Page",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
